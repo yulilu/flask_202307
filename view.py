@@ -16,7 +16,9 @@ def index():
     title_ = 'ようこそ'
     message_ = 'MTVデザインパターンでWebアプリ作成'
 
-    print("★1★")
+    print("★ 1 ★")
+    print(title_, abcdefg)
+    print("★ 2 ★")
     return render_template('index.html', title=title_, message=message_)
 
 # メイン関数
