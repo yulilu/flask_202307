@@ -17,7 +17,7 @@ def index():
     message_ = 'MTVデザインパターンでWebアプリ作成'
 
     # return 'Hello World!'
-    return render_template('index.html', title=title_, message=message_)
+    return render_template('index2.html', title=title_, message=message_)
 
 # メイン関数
 if __name__ == '__main__':
